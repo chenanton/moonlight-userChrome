@@ -33,3 +33,15 @@ change (#navigator-toolbox) with your top bar (in this case #nav-bar) and use
 #tabbrowser-tabpanels {
     background-color: var(--moonlight-gray-2) !important;
 }
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
+
+/* disable back button and forward button */
+#back-button, #forward-button { display:none!important; }
+
+/* font */ 
+* {
+   font-family: "Iosevka Custom Narrow" !important;
+   font: "Iosevka Custom Narrow" !important;
+   font-size: 10.5pt !important; 
+}

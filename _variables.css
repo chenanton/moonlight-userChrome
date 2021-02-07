@@ -25,8 +25,9 @@
     --moonlight-gray-5: #2f334d;
     --moonlight-gray-4: #222436;
     --moonlight-gray-3: #1e2030;
-    --moonlight-gray-2: #191a2a;
-    --moonlight-gray-1: #131421;
-    
+    /* --moonlight-gray-2: #191a2a; */
+    --moonlight-gray-2: #24283b;
+    /* --moonlight-gray-1: #131421; */
+    --moonlight-gray-1: #24283b;
     --scrollbar-chrome-size: 6px;
 }
